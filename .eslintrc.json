@@ -21,6 +21,8 @@
         "prefer-const": 0,
         "semi": [2, "always"],
         "space-before-function-paren": ["error", "never"],
-        "quote-props": ["error", "consistent"]
+        "quote-props": ["error", "consistent"],
+        "no-unused-vars": 0,
+        "no-undef": 0
     }
 }
