@@ -27,6 +27,18 @@ function pressButton(simon, buttonColor) {
   }
 }
 
+$('.simon-button').on('mousedown', function() {
+  $(this).addClass('light-up');
+});
+
+$('.simon-button').on('mouseup', function() {
+  // If you move your cursor to a different button
+  // before letting go of the mouse button, that other
+  // button will receive the mouseup even. Workaround:
+  // Remove light-up from every simon-button when mouseup happens
+  $('.simon-button').removeClass('light-up');
+});
+
 $('.simon-button.green').on('click', function() {
   pressButton(simon, 'green');
 });

@@ -39,20 +39,27 @@ html {
   justify-content: center;
   font-size: 40px;
   font-family: sans-serif;
+
+  transition-property: filter;
+  transition-duration: 0.1s;
 }
 
 .simon-button.green {
-  background-color: #21BA45;
+  background-color: hsl(134, 70%, 43%);
 }
 
 .simon-button.red {
-  background-color: #DB2828;
+  background-color: hsl(0, 71%, 41%);
 }
 
 .simon-button.yellow {
-  background-color: #FBBD08;
+  background-color: hsl(45, 97%, 51%);
 }
 
 .simon-button.blue {
-  background-color: #2185D0;
+  background-color: hsl(206, 73%, 47%);
+}
+
+.simon-button.light-up {
+  filter: brightness(1.4);
 }
