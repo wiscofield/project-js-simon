@@ -8,8 +8,6 @@ Watch <https://www.youtube.com/watch?v=1Yqj76Q4jJ4> to see how the game works.
 
 - [Instructions](#Instructions)
 - [Iterations](#Iterations)
-- [Common Mistakes](#Common-Mistakes)
-- [Extra Libraries](#Extra-Libraries)
   - [[v1] Button Lights](#v1-Button-Lights)
   - [[v2] Sounds (Beep Beep I'm A Jeep)](#v2-Sounds-Beep-Beep-Im-A-Jeep)
   - [[v3] Track Button Presses](#v3-Track-Button-Presses)
@@ -20,6 +18,8 @@ Watch <https://www.youtube.com/watch?v=1Yqj76Q4jJ4> to see how the game works.
   - [[v6] Simon Game (One Sequence, Random)](#v6-Simon-Game-One-Sequence-Random)
   - [[v7] Final Version](#v7-Final-Version)
   - [[v8] Computer Button Presses](#v8-Computer-Button-Presses)
+- [Common Mistakes](#Common-Mistakes)
+- [Extra Libraries](#Extra-Libraries)
 
 ## Instructions
 
@@ -42,34 +42,6 @@ There are three main components to making this work:
 1. Connecting the two
 
 You can often work on (1) and (2) independently.
-
-## Common Mistakes
-
-The most common mistake is to do the work in an unproductive order. Most people will start by writing down a description of the game and its rules as they'd describe it to someone else. That's a *great* first step, but the mistake happens next: they start doing the work the order that it appeared in the description.
-
-For example...
-
-- Focusing too early on how the computer plays a pattern for the player to repeat (one of the first thing you'd say when describing Simon to someone else)
-- Focusing too early on whether the user successfully repeated the pattern or not
-- etc.
-
-There are *so* many unknown unknowns here. You have to focus on the simpler parts first because even those will surface a ton of problems. Below are suggested "chunks" of work. Some make sense to work on independently, others less so. They don't necessarily need to be done in the order given, either, although some make sense to work on before others.
-
-A page with four buttons that light up and play sound as a user clicks is still a neat experience, even if it isn't a full Simon game.
-
-## Extra Libraries
-
-We've included the [jQuery][url-jquery] library, which can make it easier to react to user input. You aren't *required* to use it, though.
-
-**Note**: If you ever see `$` used in a JavaScript tutorial, they're probably referencing jQuery. `$` is a core function provided by the jQuery library.
-
-**Also Note**: Don't get tripped up by the fact that `$` looks like a special piece of syntax. In JavaScript the `$` character can be used in the names of functions, variables, etc. like any letter or number.
-
-You're free to use any libraries, tools, or technologies you think are appropriate. You can modify the files any way you want: edit them, add code to them, create more files, etc.
-
-You can use `console.log` to see what your code is doing. It will be displayed in the debugging console, which you can activate by right-clicking the page, selecting *Inspect Element*, and then clicking the *Console* tab.
-
-If you're using Chrome on a Mac, you can also open it with `Command + Option + j`.
 
 ### [v1] Button Lights
 
@@ -217,6 +189,35 @@ See:
 - <https://www.bitdegree.org/learn/javascript-setinterval>
 - <https://www.digitalocean.com/community/tutorials/js-settimeout-setinterval>
 - <https://javascript.info/settimeout-setinterval>
+
+
+## Common Mistakes
+
+The most common mistake is to do the work in an unproductive order. Most people will start by writing down a description of the game and its rules as they'd describe it to someone else. That's a *great* first step, but the mistake happens next: they start doing the work the order that it appeared in the description.
+
+For example...
+
+- Focusing too early on how the computer plays a pattern for the player to repeat (one of the first thing you'd say when describing Simon to someone else)
+- Focusing too early on whether the user successfully repeated the pattern or not
+- etc.
+
+There are *so* many unknown unknowns here. You have to focus on the simpler parts first because even those will surface a ton of problems. Below are suggested "chunks" of work. Some make sense to work on independently, others less so. They don't necessarily need to be done in the order given, either, although some make sense to work on before others.
+
+A page with four buttons that light up and play sound as a user clicks is still a neat experience, even if it isn't a full Simon game.
+
+## Extra Libraries
+
+We've included the [jQuery][url-jquery] library, which can make it easier to react to user input. You aren't *required* to use it, though.
+
+**Note**: If you ever see `$` used in a JavaScript tutorial, they're probably referencing jQuery. `$` is a core function provided by the jQuery library.
+
+**Also Note**: Don't get tripped up by the fact that `$` looks like a special piece of syntax. In JavaScript the `$` character can be used in the names of functions, variables, etc. like any letter or number.
+
+You're free to use any libraries, tools, or technologies you think are appropriate. You can modify the files any way you want: edit them, add code to them, create more files, etc.
+
+You can use `console.log` to see what your code is doing. It will be displayed in the debugging console, which you can activate by right-clicking the page, selecting *Inspect Element*, and then clicking the *Console* tab.
+
+If you're using Chrome on a Mac, you can also open it with `Command + Option + j`.
 
 [url-developer-console]: https://support.airtable.com/hc/en-us/articles/232313848-How-to-open-the-developer-console#:~:text=To%20open%20the%20developer%20console%20window%20on%20Chrome%2C%20use%20the,then%20select%20%22Developer%20Tools.%22
 [url-jquery]: https://api.jquery.com/
