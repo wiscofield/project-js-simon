@@ -207,13 +207,7 @@ A page with four buttons that light up and play sound as a user clicks is still 
 
 ## Extra Libraries
 
-We've included the [jQuery][url-jquery] library, which can make it easier to react to user input. You aren't *required* to use it, though.
-
-**Note**: If you ever see `$` used in a JavaScript tutorial, they're probably referencing jQuery. `$` is a core function provided by the jQuery library.
-
-**Also Note**: Don't get tripped up by the fact that `$` looks like a special piece of syntax. In JavaScript the `$` character can be used in the names of functions, variables, etc. like any letter or number.
-
-You're free to use any libraries, tools, or technologies you think are appropriate. You can modify the files any way you want: edit them, add code to them, create more files, etc.
+You're free to use any libraries, tools, or technologies you think are appropriate. One common one is [jQuery][url-jquery]. You can modify the files any way you want: edit them, add code to them, create more files, etc.
 
 You can use `console.log` to see what your code is doing. It will be displayed in the debugging console, which you can activate by right-clicking the page, selecting *Inspect Element*, and then clicking the *Console* tab.
 
