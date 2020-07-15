@@ -4,8 +4,7 @@ Let's build a single-player Simon game.
 
 ## WTF is Simon?!?
 
-Watch <https://www.youtube.com/watch?v=1Yqj76Q4jJ4> to see how the game works.
-☝️☝️☝️
+👉👉👉 Watch <https://www.youtube.com/watch?v=1Yqj76Q4jJ4> to see how the game works. 👈👈👈
 
 ## Contents <!-- omit in toc -->
 
