@@ -28,12 +28,21 @@ Watch it as a group. Take notes on how the game works, both _as a game_ and mech
 ## Instructions
 
 1. Fork this repository
+  - If you're in a group, make one person's repository the "main" fork
+  - Add everyone in the group as the collaborator to that fork
 1. Clone the fork to your computer using `git clone`
-1. Add any teammates as collaborators
 1. Run `npm install` inside the project directory
-1. Deploy to surge using `npm run publish`
+1. Deploy to surge using `npm run publish` — this runs `surge` for you.
 
-The `site/` directory is where the HTML, CSS, and JS lives.
+The `site/` directory is where the HTML, CSS, and JS live. You can deploy it with surge "by hand" with the following command (from inside the project directory):
+
+```console
+surge site/ my-cool-simon-game.surge.sh
+```
+
+Replace `my-cool-simon-game.surge.sh` with your own URL.
+
+See <https://github.com/jfarmer/intro-git#pushing-changes-to-github> for a reminder of how to push code up to GitHub.
 
 ## Iterations
 
