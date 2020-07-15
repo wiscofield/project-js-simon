@@ -45,6 +45,18 @@ There are three main components to making this work:
 
 You can often work on (1) and (2) independently.
 
+### Why This Structure
+
+You're not going to be evaluated on whether you follow the structure below or not, but we think following the structure below will make the project go more smoothly **so long as it makes sense to you**. If you feel like you're following the instructions with no idea _why_ then don't worry about it. Do what makes sense. Come back and re-read our suggestions later; they'll almost certainly make sense after you've done the project.
+
+Our aim is to help you build the project like this:
+
+![MVP](https://cdn.discordapp.com/attachments/687730544217161774/730817165032423575/EcBTzbgWsAEtJOW.png)
+
+### Make It Your Own
+
+Change whatever you want. Add jokes. Use funny sounds. Nothing will make us happier than seeing you put your own spin on it
+
 ### [v1] Button Lights
 
 In the real Simon game, there's a light underneath every button that has two states: off and on. Each button on your page will have two visual states: dark and light.
