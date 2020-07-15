@@ -8,6 +8,8 @@ Let's build a single-player Simon game.
 
 Watch it as a group. Take notes on how the game works, both _as a game_ and mechanically. When do lights turn on? Why?
 
+If you're in a group, **watch it as a group**. Take notes and compare after. Maybe watch it again. :)
+
 ## Contents <!-- omit in toc -->
 
 - [Instructions](#Instructions)
