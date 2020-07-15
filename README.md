@@ -6,6 +6,8 @@ Let's build a single-player Simon game.
 
 👉👉👉 Watch <https://www.youtube.com/watch?v=1Yqj76Q4jJ4> to see how the game works. 👈👈👈
 
+Watch it as a group. Take notes on how the game works, both _as a game_ and mechanically. When do lights turn on? Why?
+
 ## Contents <!-- omit in toc -->
 
 - [Instructions](#Instructions)
@@ -55,9 +57,13 @@ Our aim is to help you build the project like this:
 
 ### Make It Your Own
 
-Change whatever you want. Add jokes. Use funny sounds. Nothing will make us happier than seeing you put your own spin on it
+Change whatever you want. Add jokes. Use funny sounds. Nothing will make us happier than seeing you put your own spin on it.
+
+You don't have to replicate the way the game works verbatim. There are lots of tiny details in the "official" game. We want you to have fun making a fun game that you can then compare w/ other students' work.
 
 ### [v1] Button Lights
+
+👉👉👉  Remember, watch <https://www.youtube.com/watch?v=1Yqj76Q4jJ4> to see how the game works. 👈👈👈
 
 In the real Simon game, there's a light underneath every button that has two states: off and on. Each button on your page will have two visual states: dark and light.
 
