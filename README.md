@@ -6,9 +6,9 @@ Let's build a single-player Simon game.
 
 👉👉👉 Watch <https://www.youtube.com/watch?v=1Yqj76Q4jJ4> to see how the game works. 👈👈👈
 
-Watch it as a group. Take notes on how the game works, both _as a game_ and mechanically. When do lights turn on? Why?
-
 If you're in a group, **watch it as a group**. Take notes and compare after. Maybe watch it again. :)
+
+The video is less than 90 seconds long. You have the time.
 
 ## Contents <!-- omit in toc -->
 
@@ -61,6 +61,8 @@ You can often work on (1) and (2) independently.
 ### Why This Structure
 
 You're not going to be evaluated on whether you follow the structure below or not, but we think following the structure below will make the project go more smoothly **so long as it makes sense to you**. If you feel like you're following the instructions with no idea _why_ then don't worry about it. Do what makes sense. Come back and re-read our suggestions later; they'll almost certainly make sense after you've done the project.
+
+Slow is smooth, smooth is fast. [Festina lente](https://en.wikipedia.org/wiki/Festina_lente).
 
 Our aim is to help you build the project like this:
 
