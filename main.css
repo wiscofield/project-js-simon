@@ -42,7 +42,7 @@ html {
 }
 
 .simon-button.green {
-  background-color: #21BA45;
+  background-color: rgb(22, 151, 52);
 }
 
 .simon-button.red {
@@ -56,3 +56,20 @@ html {
 .simon-button.blue {
   background-color: #2185D0;
 }
+
+.simon-button.green.light-up {
+  background-color: rgb(86, 233, 120);
+}
+
+.simon-button.red.light-up {
+  background-color: rgba(219, 40, 40, 0.486);
+}
+
+.simon-button.yellow.light-up {
+  background-color: rgb(252, 217, 114);
+}
+
+.simon-button.blue.light-up{
+  background-color: rgb(152, 191, 221);
+}
+
