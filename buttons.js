@@ -4,9 +4,7 @@ greenButton.addEventListener('click', function() {
   greenButton.classList.add('light-up');
   gtrackClicks++;
   clicksTrack++;
-  console.log(clicksTrack);
   document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
-  console.log(clicksTrack);
   setTimeout(turnOffLight, 250);
   playSound(300, 250);
 });
@@ -15,6 +13,8 @@ let redButton = document.querySelector('.simon-button.red');
 redButton.addEventListener('click', function() {
   redButton.classList.add('light-up');
   btrackClicks++;
+  clicksTrack++;
+  document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
   setTimeout(turnOffLight, 250);
   playSound(349, 250);
 });
@@ -23,6 +23,8 @@ let yellowButton = document.querySelector('.simon-button.yellow');
 yellowButton.addEventListener('click', function() {
   yellowButton.classList.add('light-up');
   ytrackClicks++;
+  clicksTrack++;
+  document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
   setTimeout(turnOffLight, 250);
   playSound(440, 250);
 });
@@ -31,6 +33,8 @@ let blueButton = document.querySelector('.simon-button.blue');
 blueButton.addEventListener('click', function() {
   blueButton.classList.add('light-up');
   btrackClicks++;
+  clicksTrack++;
+  document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
   setTimeout(turnOffLight, 250);
   playSound(523, 250);
 });
