@@ -3,7 +3,9 @@ let greenButton = document.querySelector('.simon-button.green');
 greenButton.addEventListener('click', function() {
   greenButton.classList.add('light-up');
   gtrackClicks++;
-  clicksTrack;
+  clicksTrack++;
+  console.log(clicksTrack);
+  document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
   console.log(clicksTrack);
   setTimeout(turnOffLight, 250);
   playSound(300, 250);
@@ -55,3 +57,26 @@ function playSound(freq, time) {
   o.stop(0.5);
 }
 
+
+/*
+/function for non-random order
+
+// global array of strings for fixed order
+const activate = [
+  green,
+  red,
+  blue,
+  yellow,
+];
+
+Display "red" on the page
+
+Wait for the user to click a button
+If it's not red, display some text that says "game over"
+If it's red, display the next color ("blue") in this case
+Wait for the user to click a button
+If it's not blue, display some text that says "game over"
+If it's blue, display the next color
+etc. etc.
+until there are no more colors left
+*/
