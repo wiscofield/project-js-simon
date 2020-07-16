@@ -1,42 +1,59 @@
 var clicksTrack = 0
+
 let greenButton = document.querySelector('.simon-button.green');
 greenButton.addEventListener('click', function() {
-  greenButton.classList.add('light-up');
-  gtrackClicks++;
-  clicksTrack++;
-  document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
-  setTimeout(turnOffLight, 250);
-  playSound(300, 250);
+  if(allowInput) {
+    greenButton.classList.add('light-up');
+    clicksTrack++;
+    document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
+    setTimeout(turnOffLight, 250);
+    playSound(300, 250);
+
+    buttonPushed = true;
+    buttonValue = 1;
+  }
 });
 
 let redButton = document.querySelector('.simon-button.red');
 redButton.addEventListener('click', function() {
-  redButton.classList.add('light-up');
-  btrackClicks++;
-  clicksTrack++;
-  document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
-  setTimeout(turnOffLight, 250);
-  playSound(349, 250);
+  if(allowInput) {
+    redButton.classList.add('light-up');
+    clicksTrack++;
+    document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
+    setTimeout(turnOffLight, 250);
+    playSound(349, 250);
+
+    buttonPushed = true;
+    buttonValue = 2;
+  }
 });
 
 let yellowButton = document.querySelector('.simon-button.yellow');
 yellowButton.addEventListener('click', function() {
-  yellowButton.classList.add('light-up');
-  ytrackClicks++;
-  clicksTrack++;
-  document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
-  setTimeout(turnOffLight, 250);
-  playSound(440, 250);
+  if(allowInput) {
+    yellowButton.classList.add('light-up');
+    clicksTrack++;
+    document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
+    setTimeout(turnOffLight, 250);
+    playSound(440, 250);
+
+    buttonPushed = true;
+    buttonValue = 3;
+  }
 });
 
 let blueButton = document.querySelector('.simon-button.blue');
 blueButton.addEventListener('click', function() {
-  blueButton.classList.add('light-up');
-  btrackClicks++;
-  clicksTrack++;
-  document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
-  setTimeout(turnOffLight, 250);
-  playSound(523, 250);
+  if(allowInput) {
+    blueButton.classList.add('light-up');
+    clicksTrack++;
+    document.getElementById('clicks-track').innerHTML =('Clicks: ' + clicksTrack);
+    setTimeout(turnOffLight, 250);
+    playSound(523, 250);
+
+    buttonPushed = true;
+    buttonValue = 4;
+  }
 });
 
 function turnOffLight() {
@@ -60,4 +77,3 @@ function playSound(freq, time) {
   g.gain.value = 1;
   o.stop(0.5);
 }
-
