@@ -1,8 +1,10 @@
-
+var clicksTrack = 0
 let greenButton = document.querySelector('.simon-button.green');
 greenButton.addEventListener('click', function() {
   greenButton.classList.add('light-up');
   gtrackClicks++;
+  clicksTrack;
+  console.log(clicksTrack);
   setTimeout(turnOffLight, 250);
   playSound(300, 250);
 });
